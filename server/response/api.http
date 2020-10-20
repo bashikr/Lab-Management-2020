@@ -1,0 +1,3 @@
+GET http://localhost:5000/lab/returns/showReturnRequests
+
+GET http://localhost:5000/lab/invoices/showAllInvoices/

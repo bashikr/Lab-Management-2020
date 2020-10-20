@@ -1,0 +1,8 @@
+{
+    "host": "localhost",
+    "user": "user",
+    "password": "pass",
+    "database": "lab",
+    "multipleStatements": true,
+    "operatorsAliases": false
+}

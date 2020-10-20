@@ -1,0 +1,36 @@
+
+.layoutStuff {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+}
+
+.bodyContainer {
+    flex-grow: 5;
+    height: 100%;
+}
+
+.sideContainer {
+    flex-grow: 2;
+    margin-left: 1%;
+}
+
+.sidebarContainer {
+    width: 30%;
+    
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    bottom: 0;
+}
+
+@media screen and (max-width: 500px) 
+{
+    .bodyContainer {
+        flex-grow: 12;
+        height: 100%;
+    }
+}
