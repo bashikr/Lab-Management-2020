@@ -81,7 +81,7 @@ Log in to MySQL by writing your root password. Now you have logged in to MySQL a
 ```show tables;```
 
 <p align="center">
-    <img width="800px" src="http://www.student.bth.se/~baaa19/dbwebb-kurser/oophp/me/redovisa/lab-management.svg">
+    <img width="800px" src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/Lab-Management.svg">
 </p>
 
     * Go to the root of the server- and client-folders and run the command "npm install".
@@ -89,7 +89,7 @@ Log in to MySQL by writing your root password. Now you have logged in to MySQL a
     * A window will automatically open in the web browser on the URL http://localhost:3000.
 
 <p align="center">
-    <img width="800px" src="http://www.student.bth.se/~baaa19/dbwebb-kurser/oophp/me/redovisa/npm.svg">
+    <img width="800px" src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/npm.svg">
 </p>
 
     * After that, sign up on the web app and log in. You will automatically be registered as a normal user.
@@ -99,7 +99,7 @@ Log in to MySQL by writing your root password. Now you have logged in to MySQL a
 Example:
 
 <p align="center">
-    <img width="800px" src="http://www.student.bth.se/~baaa19/dbwebb-kurser/oophp/me/redovisa/change-user-role.svg">
+    <img width="800px" src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/change-user-role.svg">
 </p>
 
 
@@ -182,7 +182,7 @@ In case if the message-sending feature didn't work then you have to activate **2
 Here is a good demonstration of what you have to do:
 
 <p align="center">
-  <img src="https://github.com/bashikr/Lab-Management/blob/master/google-security.gif" width="800" />
+  <img src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/google-security.gif" width="800" />
 </p>
 
 As you have seen in the previous demonstration, copy the generated password and replace the phrase (your password) at line 21 with your new email password.
