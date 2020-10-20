@@ -28,21 +28,21 @@ Lab Management is a web application made for Blekinge Institute of Technology to
 ## To be more specific, the web application supports the following features: ##
 
 1. A login/register interface with support for hashed passwords.
-2. User/Admin/nonUsers interface with some privileges to the admin. An example on the Admin’s privileges is:
+2. User/Admin/nonUsers interface with some privileges to the admin. An example of the Admin’s privileges is:
     * Add items.
     * Delete items.
     * Modify items.
     * The ability to see a table of the users registered in the system.
     * Change the user’s roles (privileges).
     * Delete users.
-    * Can see all the orders form the users.
+    * Can see all the orders comming from the users.
     * Check up the returned items, refusing and accepting them.
     * Can see a table of the accepted returned items.
 
 3. Show all items in the Lab.
-4. Show specific items with detailed information. Additionally, showing the item's status. If the item is available and not in **My Items** page then the user can add it to **My Items** else If the item is out of the Lab then the user has the opportunity to reserve it. If the user already has the item inside **My Items** then he/she will see an icon to redirect him/her to **My Items** nav. Ultimately if the user is not logged in then he/she will be redirected to the login page and therefore they will not see the “My Items” page.
-5. The ability to search items.
-6. In **My Items** page, the users have the opportunity to change their minds like removing saved items before borrowing them. They also can borrow a list of the chosen items. After borrowing the items then the Lab amount of those chosen items will be reduced.
+4. Show specific items with detailed information. Additionally, showing the item's status. If the item is available and not on **My Items** page then the user can add it to **My Items** else If the item is out of the Lab then the user has the opportunity to reserve it. If the user already has the item inside **My Items** then he/she will see an icon to redirect him/her to **My Items** nav. Ultimately if the user is not logged in then he/she will be redirected to the login page and therefore they will not see the “My Items” page.
+5. The ability to search for items.
+6. On **My Items** page, the users have the opportunity to change their minds like removing saved items before borrowing them. They also can borrow a list of the chosen items. After borrowing the items then the Lab amount of those chosen items will be reduced.
 7. Show categories and present the items inside every single category.
 8. A message will automatically be sent to the users to inform them about the expiration lending date.
 9. The user and the admin have the opportunity to see their profile.
