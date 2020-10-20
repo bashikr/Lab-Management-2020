@@ -81,7 +81,7 @@ Log in to MySQL by writing your root password. Now you have logged in to MySQL a
 ```show tables;```
 
 <p align="center">
-    <img width="800px" src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/Lab-Management.svg">
+    <img width="800px" src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/lab-management.svg">
 </p>
 
     * Go to the root of the server- and client-folders and run the command "npm install".
