@@ -126,13 +126,13 @@ Execute this command in the terminal:
 
 Now you have logged in to MySQL and therefore you can execute the following commands:
 
-1. ```use lab;``` This statement is used to decide which database you will work with wich is lab in this case.
+1. ```use lab;``` This statement is used to decide which database you will work with which is lab in this case.
 
-2. ```show tables;``` This statement is used to show what tables we have in the database.
+2. ```show tables;``` This statement is used to show what tables you have in the database.
 
-3. ```select * from users;``` This statement shows a detailed information about the users using the web application.
+3. ```select * from users;``` This statement shows a detailed information about the users who are using the web application.
 
-4. We use this statement to change the user privileges from user to admin by giving the user email.
+4. You will use this statement to change the user privileges from **user** to **admin** by giving the user email.
 ```sql
 CALL change_user_role("labmanagement2020@gmail.com", "admin");
 ```
