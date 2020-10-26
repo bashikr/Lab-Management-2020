@@ -81,14 +81,14 @@ Example:
 
 Execute this command in the terminal:
 
-```./auto.bash```
+1. ```./auto.bash```
 
-Log in to MySQL by writing your root password (the password you gave when you you installed MySQL
-community Server).Now you have logged in to MySQL and therefore can execute the following commands:
+2. Log in to MySQL by writing your root password (the password you gave when you you installed MySQL
+community Server). Now you have logged in to MySQL and therefore can execute the following commands:
 
-```use lab;``` This statement is used to decide which database you will work with wich is lab in this case.
+3. ```use lab;``` This statement is used to decide which database you will work with wich is lab in this case.
 
-```show tables;``` This statement is used to show what tables we have in the database.
+4. ```show tables;``` This statement is used to show what tables we have in the database.
 
 #### Step 2: ####
 ----------------
@@ -102,6 +102,17 @@ Example:
 <p align="center">
     <img width="800px" src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/npm.svg">
 </p>
+
+### Used Commands: ###
+
+Execute this command in the terminal:
+
+1. In the folder **client** run the command ```npm install```.
+
+2. Then in the folder **server** run the command ```npm install```.
+
+3. Ultimately, run the command ```yarn dev``` in the folder **server**.
+
 
 #### Step 3: ####
 ----------------
