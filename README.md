@@ -126,18 +126,19 @@ Execute this command in the terminal:
 
 Now you have logged in to MySQL and therefore you can execute the following commands:
 
-1. ```use lab;```
+1. ```use lab;``` This statement is used to decide which database you will work with wich is lab in this case.
 
-2. ```show tables;```
+2. ```show tables;``` This statement is used to show what tables we have in the database.
 
-3. ```select * from users;```
+3. ```select * from users;``` This statement shows a detailed information about the users using the web application.
 
-4.
+4. We use this statement to change the user privileges from user to admin by giving the user email.
 ```sql
 CALL change_user_role("labmanagement2020@gmail.com", "admin");
 ```
 
-5. ```select * from users;```
+5. ```select * from users;``` You can reuse statement number 3 to ensure that the use privileges has been changed correctly.
+
 
 Now, you have changed the privileges of your mail account to (**admin**).
 
