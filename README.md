@@ -55,18 +55,25 @@ Lab Management is a web application made for Blekinge Institute of Technology to
 ## Here are some essential prerequisites needed to make the application work locally: ##
 
 1. First, you need MySQL installed with root user permissions.
-Here is the page where you can download MySQL community server and/or MySQL workbench.
+Here is the page where you can download MySQL community server.
 [MySQL](https://dev.mysql.com/downloads/)
 
-2. Secondly, You also need Node.js installed with npm included.
-Here is the page where you can download node.js with the npm package.
+2. Secondly, You also need Node.js installed. Here is the page where you can download node.js.
 [Node.js](https://nodejs.org/en/download/)
 
 ### Instructions ###
 
     * Navigate to server/sql/lab and run the bash script by writing "./auto.bash" and hitting enter.
-    * After hitting the enter button you will need to write your MySQL root password.
+    * After hitting the enter button you will need to write your MySQL root password 
+    (the password you gave when you you installed MySQL community Server).
     * Consequently, the bash-script will setup the database (lab) for you.
+
+
+Example:
+
+<p align="center">
+    <img width="800px" src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/lab-management.svg">
+</p>
 
 ### Used Commands: ###
 
@@ -80,13 +87,11 @@ Log in to MySQL by writing your root password. Now you have logged in to MySQL a
 
 ```show tables;```
 
-<p align="center">
-    <img width="800px" src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/lab-management.svg">
-</p>
-
     * Go to the root of the server- and client-folders and run the command "npm install".
     * Then enter the /server folder and run the command "yarn dev". 
     * A window will automatically open in the web browser on the URL http://localhost:3000.
+
+Example:
 
 <p align="center">
     <img width="800px" src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/npm.svg">
@@ -101,7 +106,6 @@ Example:
 <p align="center">
     <img width="800px" src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/change-user-role.svg">
 </p>
-
 
 
 ### Used Commands: ###
