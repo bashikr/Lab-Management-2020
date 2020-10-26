@@ -62,6 +62,7 @@ Here is the page where you can download MySQL community server.
 [Node.js](https://nodejs.org/en/download/)
 
 ### Instructions ###
+#### Step 1 ####
 
     * Navigate to server/sql/lab and run the bash script by writing "./auto.bash" and hitting enter.
     * After hitting the enter button you will need to write your MySQL root password (the password you 
@@ -87,6 +88,8 @@ Log in to MySQL by writing your root password. Now you have logged in to MySQL a
 
 ```show tables;```
 
+#### Step 2 ####
+
     * Go to the root of the server- and client-folders and run the command "npm install".
     * Then enter the /server folder and run the command "yarn dev". 
     * A window will automatically open in the web browser on the URL http://localhost:3000.
@@ -96,6 +99,8 @@ Example:
 <p align="center">
     <img width="800px" src="https://github.com/bashikr/Lab-Management-2020/blob/main/examples/npm.svg">
 </p>
+
+#### Step 3 ####
 
     * After that, sign up on the web app and log in. You will automatically be registered as a normal user.
     * If you want to use the admin's privileges then you have to change the role of your account to (admin).
