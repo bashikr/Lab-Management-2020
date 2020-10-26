@@ -64,8 +64,8 @@ Here is the page where you can download MySQL community server.
 ### Instructions ###
 
     * Navigate to server/sql/lab and run the bash script by writing "./auto.bash" and hitting enter.
-    * After hitting the enter button you will need to write your MySQL root password 
-    (the password you gave when you you installed MySQL community Server).
+    * After hitting the enter button you will need to write your MySQL root password (the password you 
+    gave when you you installed MySQL community Server).
     * Consequently, the bash-script will setup the database (lab) for you.
 
 
