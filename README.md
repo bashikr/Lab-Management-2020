@@ -178,7 +178,8 @@ To successfully make the email sending feature work properly, you should do some
 ```
 
     * To set up your messaging mail you have to navigate to the directory:
-    - server/route/mailSender.js
+    - server/route/mailSender.js.
+    * Open the file mailSender.js using a text editor.
     * At line 20, replace the phrase (your email) inside the quotation marks with your own email.
     * At line 21, replace the phrase (your password) inside the quotation marks with your email password.
 
